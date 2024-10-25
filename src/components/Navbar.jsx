@@ -1,4 +1,4 @@
-import Card from "./Card"
+
 
 function Navbar(){
     return(
@@ -39,11 +39,7 @@ function Navbar(){
   </div>
     </nav>
     <div className="flex flex-wrap">
-    <Card/>
-    <Card/>
-  <Card/>
-  <Card/>
-  <Card/>
+
   </div>
     </>
     )}
