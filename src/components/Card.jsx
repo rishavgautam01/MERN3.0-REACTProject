@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom"
+
 function Card(props){
     return(
         <>
+        <Link to={`/blog/${props.blog._id}`}>
         <div className="flex px-3 py-3">
     <div className="max-w-sm rounded overflow-hidden shadow-lg mt-20">
         <img className="w-full" src={'http://localhost:3000/'+ props.blog.image} alt="Sunset in the mountains"/>
@@ -15,6 +18,7 @@ function Card(props){
         </div>
     </div>
 </div>
+</Link>
 </>
 )
 }
